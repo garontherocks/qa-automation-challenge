@@ -1,0 +1,18 @@
+{
+  "name": "unily-qa-automation-challenge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright test suite for the Automation Exercise QA challenge",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:list": "playwright test --list",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}
