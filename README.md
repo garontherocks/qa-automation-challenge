@@ -10,7 +10,7 @@ Playwright + TypeScript implementation of all 26 scenarios in [`TEST_CASES.md`](
 ## Install
 
 ```bash
-npm install
+npm ci
 npx playwright install chromium
 ```
 
